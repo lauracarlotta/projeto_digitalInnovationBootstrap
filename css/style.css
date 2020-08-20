@@ -1,21 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 body{
     background-color: rgb(236, 235, 235);
 }
-.navbar{
-    background-color: rgb(119, 255, 119);
+
+li{
+    font-family: 'Abel', sans-serif;
+    font-size: 15pt;
+    padding-left: 15px;
 }
 
-/* .nav-link{
-    color: rgb(10, 10, 168);
-}*/
+.logoGL{
+    position: absolute;
+    top: 5px;
+    left: 1100px;
+}
 
-.quem-somos{
-    background-color: #f4941f;
+.navbar{
+    background-color: #deba78;
+    font-size: 15pt;
+    padding: none;
+}
+.nav-link{
+    color: rgb(10, 10, 168);
+}
+
+#quemsomos{
+    background-color: #55333a;
+    color: #ffffff;
 }
 
 .servicos{
     background-color: rgb(196, 183, 183);
     color: #000000;
+}
+
+.serv{
+    margin: 10px;
 }
 
 .parceiros{
@@ -25,9 +46,33 @@ body{
 }
 
 .ibm{
+    margin-top: 25px;
+}
+
+.google{
+    margin-top: 18px;
+}
+
+.microsoft{
+    margin-top: 23px;
+}
+
+.youtube{
     margin-top: 30px;
 }
 
 .margin{
     padding: 10px;
+}
+
+h4{
+    margin: 10px;
+    font-size: 12pt;
+}
+
+#rodape{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
 }
