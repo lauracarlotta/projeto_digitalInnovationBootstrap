@@ -4,30 +4,39 @@ body{
     background-color: rgb(236, 235, 235);
 }
 
-li{
+/* li{
     font-family: 'Abel', sans-serif;
     font-size: 15pt;
     padding-left: 15px;
-}
+}*/
 
 .logoGL{
     position: absolute;
     top: 5px;
-    left: 1100px;
+    left: 1155px;
 }
 
-.navbar{
+.pesquisar{
+    margin-left: 400px;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border: solid 0 #000000;
+}
+
+/*.navbar{
     background-color: #deba78;
     font-size: 15pt;
     padding: none;
 }
 .nav-link{
     color: rgb(10, 10, 168);
-}
+}*/
 
 #quemsomos{
-    background-color: #55333a;
-    color: #ffffff;
+    background-color: #cdebec;
+    color: #010029;
 }
 
 .servicos{
@@ -70,9 +79,7 @@ h4{
     font-size: 12pt;
 }
 
-#rodape{
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
+.bg-footer{
+    margin: 10px;
+    padding: 5px;
 }
